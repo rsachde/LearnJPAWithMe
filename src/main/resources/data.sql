@@ -1,0 +1,9 @@
+INSERT INTO PERSONS
+  (ID, Name, LOCATION, BIRTH_DATE)
+  VALUES(1001, 'RIA', 'LONDON', sysdate() );
+  INSERT INTO PERSONS
+  (ID, NAME, LOCATION, BIRTH_DATE)
+  VALUES(1002, 'Shubhu', 'Toronto', sysdate() );
+  INSERT INTO PERSONS
+  (ID, NAME, LOCATION, BIRTH_DATE)
+  VALUES(1003, 'Ikhtar', 'New York', sysdate() );
