@@ -21,5 +21,6 @@ public class DatabaseDemoApplication implements CommandLineRunner {
         System.out.println(personJDBCDAO.findAll());
         System.out.println(personJDBCDAO.findByID(1002));
         System.out.println(personJDBCDAO.deletByID(1001));
+        System.out.println("I am in feature02");
     }
 }
