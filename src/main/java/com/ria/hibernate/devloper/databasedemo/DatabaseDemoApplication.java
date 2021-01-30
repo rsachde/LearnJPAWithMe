@@ -34,7 +34,7 @@ public class DatabaseDemoApplication implements CommandLineRunner {
         person.setLocation("Bhiwani");
         System.out.println(personJDBCDAO.insert(person));
         System.out.println(personJDBCDAO.findAll());
-
+        System.out.println("I am in feature01");
 
 
     }
