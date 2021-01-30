@@ -39,6 +39,6 @@ public class PersonJDBCDAO {
     }
     public int insert(Person person)
     {
-        return jdbcTemplate.update("insert into person(id, name, LOCATION, BIRTH_DATE)" + "values(?,?,?,?)" + new Object[]{person.getID(), person.getName(), person.getLocation(), person.getBirth_Date()});
+        return jdbcTemplate.update("insert into persons(id, name, LOCATION)" + "values(?,?,?)" , new Object[]{person.getID(), person.getName(), person.getLocation()});
     }
 }

@@ -1,9 +1,9 @@
 INSERT INTO PERSONS
-  (ID, Name, LOCATION, BIRTH_DATE)
-  VALUES(1001, 'RIA', 'LONDON', sysdate() );
+  (ID, Name, LOCATION)
+  VALUES(1001, 'RIA', 'LONDON');
   INSERT INTO PERSONS
-  (ID, NAME, LOCATION, BIRTH_DATE)
-  VALUES(1002, 'Shubhu', 'Toronto', sysdate() );
+  (ID, NAME, LOCATION)
+  VALUES(1002, 'Shubhu', 'Toronto' );
   INSERT INTO PERSONS
-  (ID, NAME, LOCATION, BIRTH_DATE)
-  VALUES(1003, 'Ikhtar', 'New York', sysdate() );
+  (ID, NAME, LOCATION)
+  VALUES(1003, 'Ikhtar', 'New York' );
