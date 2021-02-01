@@ -38,5 +38,6 @@ public class DatabaseDemoApplication implements CommandLineRunner {
         System.out.println(personJDBCDAO.findByID(1002));
         System.out.println(personJDBCDAO.deletByID(1001));
         System.out.println("I am in feature02");
+        System.out.println("I am inside the new remote local Flow Demo");
     }
 }
