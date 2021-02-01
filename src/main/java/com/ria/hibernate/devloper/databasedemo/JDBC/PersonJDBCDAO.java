@@ -39,6 +39,8 @@ public class PersonJDBCDAO {
     }
     public int insert(Person person)
     {
+        System.out.println("This change was made locally and pushed to GitHub from local");
         return jdbcTemplate.update("insert into persons(id, name, LOCATION)" + "values(?,?,?)" , new Object[]{person.getID(), person.getName(), person.getLocation()});
+
     }
 }
